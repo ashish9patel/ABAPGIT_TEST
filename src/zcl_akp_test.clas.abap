@@ -4,17 +4,17 @@ CLASS zcl_akp_test DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-    INTERFACES: if_oo_adt_classrun.
-
+    class-METHODS: main.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS zcl_akp_test IMPLEMENTATION.
-  METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello world' ).
-  ENDMETHOD.
+CLASS ZCL_AKP_TEST IMPLEMENTATION.
 
+
+  METHOD main.
+
+  ENDMETHOD.
 ENDCLASS.
